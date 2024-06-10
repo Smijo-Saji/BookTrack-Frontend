@@ -61,7 +61,7 @@ function Home() {
                 <Card.Img
                   variant="top"
                   src={book.coverImg}
-                  className="book-cover-img mt-3"
+                  className="book-cover-img"
                 />
                 <Card.Body className="d-flex flex-column align-items-center ">
                   <Card.Title>{book.title.slice(0, 18)}</Card.Title>
